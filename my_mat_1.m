@@ -1,5 +1,5 @@
 fs = 44100;      % Sampling frequency
-fc = 5000;       % Cutoff frequency
+fc = 1000;       % Cutoff frequency
 order = 10000;     % Filter order
 
 Wn = fc/(fs/2);  % Normalized cutoff frequency
